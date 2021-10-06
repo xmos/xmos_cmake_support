@@ -1,1 +1,1 @@
-# xmos-cmake-support
+# xmos_cmake_support
