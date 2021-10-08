@@ -7,6 +7,6 @@ macro(xmos_add_package NAME TAG)
     DOWNLOAD_ONLY
     SOURCE_DIR ${NAME}
   )
-
+  include("${CMAKE_BINARY_DIR}/${NAME}/${NAME}.cmake")
 endmacro()
 
